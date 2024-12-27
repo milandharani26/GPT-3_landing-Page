@@ -8,14 +8,14 @@ const Header = () => {
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
-            Lets's Build Something amazing with GPT-3 OpenAI
+          AI-Powered Face Attendance System
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. not throught all excersise blessing. indulgence way everything joy alteration boisterous the attchment. party we years to order allow asked of.
+          Revolutionize your attendance tracking with our cutting-edge facial recognition technology. Accurate, efficient, and secure.
         </p>
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder='Your Email Address' />
-          <button type='button'>Get Started</button>
+          {/* <input type="email" placeholder='Your Email Address' />
+          <button type='button'>Get Started</button> */}
 
         </div>
         <div className="gpt3__header-content__people">
@@ -25,8 +25,8 @@ const Header = () => {
         </div>
       </div>
       <div className="gpt3__header-image">
-          <img src={ai} alt="ai" />
-        </div>
+        <img src={ai} alt="ai" />
+      </div>
     </div>
   )
 }
